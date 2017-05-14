@@ -25,7 +25,7 @@
     $('#dg').datagrid({
     	
     	url:"${ctx}/listUser.do",
-    	queryParams:{userid:$('#userid').val(),
+    	queryParams:{userid:$('#userId').val(),
 			userName:$('#userName').val(),
 			position:$('#position').combobox('getValue')} //传参
    	 	
